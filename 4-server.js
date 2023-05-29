@@ -13,7 +13,8 @@ const server = http.createServer((req, res) => {
       `
   <h1>Oops!!</h1>
   <p>The resourse you are looking for has been moved or does not exist...</p>
-  <a href='/'>Back Home</a>
+  <a href='/'>Back Home</a><br />
+  Copyright: Vusi Molapisi
   `
     );
   }
